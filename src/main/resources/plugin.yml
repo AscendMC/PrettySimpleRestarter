@@ -1,0 +1,6 @@
+name: PrettySimpleRestarter
+author: RoboMWM
+version: '${project.version}-${git.closest.tag.commit.count}-${git.commit.id.abbrev}'
+main: com.robomwm.prettysimplerestarter.PrettySimpleRestarter
+api-version: '1.13'
+description: Restarts the server at the configured time.
